@@ -46,7 +46,7 @@ paths:
       description: Using your api key and secret generate a session token that will be used in any other subsequent API requests.
   /getAllKeysets:
     get:
-      summary: Your GET endpoint
+      summary: GET Keysets
       tags: []
       responses:
         '200':
@@ -186,7 +186,7 @@ paths:
     parameters: []
   /getKeysetById:
     get:
-      summary: Your GET endpoint
+      summary: GET Keyset by ID
       tags: []
       responses:
         '200':
