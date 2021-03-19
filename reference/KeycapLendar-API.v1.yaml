@@ -47,7 +47,8 @@ paths:
   /getAllKeysets:
     get:
       summary: GET Keysets
-      tags: []
+      tags:
+        - keysets
       responses:
         '200':
           description: OK
@@ -187,7 +188,8 @@ paths:
   /getKeysetById:
     get:
       summary: GET Keyset by ID
-      tags: []
+      tags:
+        - keysets
       responses:
         '200':
           description: OK
